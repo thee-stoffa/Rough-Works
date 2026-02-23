@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decisions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form class="decision-tree">
+    <div class="question1">
+      <h1>Which industries interest you?</h1>
+      <input type="radio" value="oil" name="interest" id="oil">
+      <input type="radio" value="tech" name="interest" id="tech">
+      <input type="radio" value="finance" name="interest" id="finance">
+      <div class="options part1">
+        <label for="oil">Oil and Gas (Energy)</label>
+        <label for="tech">Technology</label>
+        <label for="finance">Finance</label>
+      </div>
+    </div>
+    <div class="question2">
+      <h1>Which option suits your investment plan?</h1>
+      <input type="radio" value="short-term" name="investment" id="short-term">
+      <input type="radio" value="long-term" name="investment" id="long-term">
+      <input type="radio" value="other" name="investment" id="other">
+      <div class="options part2">
+        <label for="short-term">Short-Term Investment</label>
+        <label for="long-term">Long-Term Investment</label>
+        <label for="other">Other Investment Plans</label>
+      </div>
+    </div>
+    <div class="results">
+      <div class="result oil-short-term">Check out our short term oil and gas investment options.</div>
+      <div class="result oil-long-term">Check out our long term oil and gas investment options.</div>
+      <div class="result oil-other">Our Oil and Gas investment advisers will contact you shortly.</div>
+      <div class="result tech-short-term">Check out our short term technology investment options.</div>
+      <div class="result tech-long-term">Check out our long term technology investment options.</div>
+      <div class="result tech-other">Our Technology investment advisers will contact you shortly.</div>
+      <div class="result finance-short-term">Check out our short term finance investment options.</div>
+      <div class="result finance-long-term">Check out our long term finance investment options.</div>
+      <div class="result finance-other">Our Finance investment advisers will contact you shortly.</div>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
